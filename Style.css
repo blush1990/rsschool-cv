@@ -1,0 +1,92 @@
+html {
+   margin: 0;
+   padding: 0;
+   outline: none;
+   text-decoration: none;
+   font-family: "segoe UI", sans-serif;
+}
+#page-wrap {
+   width: 100%;
+}
+header {
+   width: 100%;
+}
+header #name h1 {
+   text-align: center;
+}
+#myData {
+   width: 100%;
+}
+#myData #contacts h2 {
+   text-align: center;
+}
+#myData #contacts #feedback {
+   margin-left: 28%;
+}
+#myData #aboutMe h2 {
+   text-align: center;
+}
+#myData #aboutMe {
+   width: 100%;
+}
+#myData #aboutMe #life img {
+   width: 15%;
+   float: left;
+   margin-left: 28%;
+   padding-right: 3%;
+   padding-top: 1%;
+}
+#myData #aboutMe #life p {
+   float: left;
+   width: 30%;
+   text-indent: 20px;
+   margin-right: 24%;
+}
+#myData #experience {
+   width: 100%;
+   float: left;
+}
+#myData #experience h2 {
+   text-align: center;
+}
+#myData #experience #skils {
+   margin-left: 27%;
+}
+#myData #examplecode {
+   width: 100%;
+   float: left;
+}
+#myData #examplecode h2 {
+   text-align: center;
+}
+#myData #examplecode #code {
+   margin-left: 28%;
+}
+#myData #work {
+   width: 100%;
+   float: left;
+}
+#myData #work h2 {
+   text-align: center;
+}
+#myData #education {
+   width: 100%;
+   float: left;
+}
+#myData #education h2 {
+   text-align: center;
+}
+#myData #education p {
+   margin-left: 28%;
+}
+#myData #leveleng {
+   width: 100%;
+   float: left;
+}
+#myData #leveleng h2 {
+   text-align: center;
+}
+#myData #leveleng p {
+   margin-left: 28%;
+}
+
