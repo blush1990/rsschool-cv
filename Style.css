@@ -1,0 +1,155 @@
+html {
+   outline: none;
+   text-decoration: none;
+   background-color: grey;
+}
+body{
+   margin: 0;
+}
+
+/* header */
+
+header {
+   width: 60%;
+   display: flex;
+   background-color: rgb(33, 32, 41);
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin: 30px 15% 0 15%;
+   padding: 0 5%;
+}
+header #feedback {
+   color: rgb(209, 218, 218);
+}
+header #feedback h1 {
+   font-size: 4em;
+   font-family: sans-serif;
+}
+
+header #feedback ul {
+   padding-top: 30px;
+}
+
+header #feedback ul li{
+   padding: 5px;
+   font-size: 1.2em;
+}
+
+header #foto {
+width: 250px;
+height: 350px;
+background-color: rgba(255, 255, 255, 0.041);
+}
+header #foto img {
+   width: 250px;
+   margin-top: 40px;
+}
+
+/* About me */
+article {
+   width: 60%;
+   display: flex;
+   background-color: rgb(255, 255, 255);
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin: 0 15%;
+   padding: 0 5%;
+   font-family: sans-serif;
+}
+article h2 {
+   font-size: 2.5em;
+   margin: 10px 0 0 0;
+   padding: 0;
+}
+article p {
+   font-size: 1.1em;
+   text-indent: 2em;
+   text-align: justify;
+   padding: 0 10px;
+}
+
+
+/* Main */
+main {
+   width: 70%;
+   display: flex;
+   background-color: rgb(255, 255, 255);
+   margin: 0 15%;
+   font-family: sans-serif;
+}
+main section {
+   width: 23%;
+   display: flex;
+   border: solid 1px rgb(180, 180, 180);
+   margin: 1%;
+}
+main section h2 {
+   display: flex;
+   justify-content: center;
+   font-size: 2em;
+   margin-top: 10px;
+}
+
+/* Experience */
+
+main section #exper ul p{
+   margin: 0;
+}
+main section #exper ul {
+   font-size: 1.1em;
+   margin-top: -15px;
+}
+main section #exper ul progress {
+   border: 1px solid black;
+   border-radius: 5px;
+   width: 150px;
+} 
+
+
+/* example code */
+
+main section pre {
+   margin-top: -30px;
+}
+
+/* Education */
+main section #educ {
+   width: 350px;
+}
+main section #educ ul {
+   margin-top: -20px;
+}
+main section #educ ul li {
+   padding: 8px;
+   font-size: 1.1em;
+}
+
+/* English */
+
+main section #eng p {
+   font-size: 1.1em;
+   text-indent: 2em;
+   text-align: justify;
+   padding: 0 10px;
+   margin-top: -15px;
+}
+
+/* Footer */
+
+footer {
+   display: flex;
+   justify-content: flex-end;
+   width: 69%;
+   background-color:rgb(33, 32, 41);
+   margin: 0 15% 30px 15%;
+   padding-right: 1%;
+}
+footer a {
+   padding: 5px;
+}
+
+footer a :hover {
+   border: 0 solid grey;
+   border-radius: 10px;
+   background-color: grey;
+}
