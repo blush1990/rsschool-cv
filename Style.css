@@ -1,91 +1,156 @@
 html {
-   margin: 0;
-   padding: 0;
    outline: none;
    text-decoration: none;
+   background-color: grey;
 }
-#page-wrap {
-   width: 100%;
+body{
+   margin: 0;
 }
+
+/* header */
+
 header {
-   width: 100%;
+   width: 60%;
+   display: flex;
+   background-color: rgb(33, 32, 41);
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin: 30px 15% 0 15%;
+   padding: 0 5%;
 }
-header #name h1 {
-   text-align: center;
+header #feedback {
+   color: rgb(209, 218, 218);
 }
-#myData {
-   width: 100%;
+header #feedback h1 {
+   font-size: 4em;
+   font-family: sans-serif;
 }
-#myData #contacts h2 {
-   text-align: center;
+
+header #feedback ul {
+   padding-top: 30px;
 }
-#myData #contacts #feedback {
-   margin-left: 28%;
+
+header #feedback ul li{
+   padding: 5px;
+   font-size: 1.2em;
 }
-#myData #aboutMe h2 {
-   text-align: center;
+
+header #foto {
+width: 250px;
+height: 350px;
+background-color: rgba(255, 255, 255, 0.041);
 }
-#myData #aboutMe {
-   width: 100%;
+header #foto img {
+   width: 250px;
+   margin-top: 40px;
 }
-#myData #aboutMe #life img {
-   width: 15%;
-   float: left;
-   margin-left: 28%;
-   padding-right: 3%;
-   padding-top: 1%;
+
+/* About me */
+article {
+   width: 60%;
+   display: flex;
+   background-color: rgb(255, 255, 255);
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin: 0 15%;
+   padding: 0 5%;
+   font-family: sans-serif;
 }
-#myData #aboutMe #life p {
-   float: left;
-   width: 30%;
-   text-indent: 20px;
-   margin-right: 24%;
+article h2 {
+   font-size: 2.5em;
+   margin: 10px 0 0 0;
+   padding: 0;
 }
-#myData #experience {
-   width: 100%;
-   float: left;
+article p {
+   font-size: 1.1em;
+   text-indent: 2em;
+   text-align: justify;
+   padding: 0 10px;
 }
-#myData #experience h2 {
-   text-align: center;
+
+
+/* Main */
+main {
+   width: 70%;
+   display: flex;
+   background-color: rgb(255, 255, 255);
+   margin: 0 15%;
+   font-family: sans-serif;
 }
-#myData #experience #skils {
-   margin-left: 27%;
+main section {
+   width: 23%;
+   display: flex;
+   border: solid 1px rgb(180, 180, 180);
+   margin: 1%;
 }
-#myData #examplecode {
-   width: 100%;
-   float: left;
+main section h2 {
+   display: flex;
+   justify-content: center;
+   font-size: 2em;
+   margin-top: 10px;
 }
-#myData #examplecode h2 {
-   text-align: center;
+
+/* Experience */
+
+main section #exper ul p{
+   margin: 0;
 }
-#myData #examplecode #code {
-   margin-left: 28%;
+main section #exper ul {
+   font-size: 1.1em;
+   margin-top: -15px;
 }
-#myData #work {
-   width: 100%;
-   float: left;
+main section #exper ul progress {
+   border: 1px solid black;
+   border-radius: 5px;
+   width: 150px;
+} 
+
+
+/* example code */
+
+main section pre {
+   margin-top: -30px;
 }
-#myData #work h2 {
-   text-align: center;
+
+/* Education */
+main section #educ {
+   width: 350px;
 }
-#myData #education {
-   width: 100%;
-   float: left;
+main section #educ ul {
+   margin-top: -20px;
 }
-#myData #education h2 {
-   text-align: center;
+main section #educ ul li {
+   padding: 8px;
+   font-size: 1.1em;
 }
-#myData #education p {
-   margin-left: 28%;
+
+/* English */
+
+main section #eng p {
+   font-size: 1.1em;
+   text-indent: 2em;
+   text-align: justify;
+   padding: 0 10px;
+   margin-top: -15px;
 }
-#myData #leveleng {
-   width: 100%;
-   float: left;
+
+/* Footer */
+
+footer {
+   display: flex;
+   justify-content: flex-end;
+   width: 69%;
+   background-color:rgb(33, 32, 41);
+   margin: 0 15% 30px 15%;
+   padding-right: 1%;
 }
-#myData #leveleng h2 {
-   text-align: center;
+footer a {
+   padding: 5px;
 }
-#myData #leveleng p {
-   margin-left: 28%;
+
+footer a :hover {
+   border: 0 solid grey;
+   border-radius: 10px;
+   background-color: grey;
 }
 
