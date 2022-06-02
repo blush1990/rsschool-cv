@@ -33,3 +33,8 @@ function solve(stones) {
   return res;
 }
 ```
+## Work Experience
+## Education    
+Self-study, YouTube and book javascript for kids
+## English    
+  Level **Pre-intermediate**
